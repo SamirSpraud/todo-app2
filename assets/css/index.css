@@ -1,0 +1,131 @@
+html body {
+    background-color: rgb(177, 170, 227);
+    margin: 0;
+
+  }
+  
+  html,
+  body,
+  .main {
+    height: 100%;
+  }
+  .main{
+    width: 80%;
+    margin: 0 auto;
+  }
+  h1,
+  h3 {
+    margin-top: 1%;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #app {
+    border: 2.5px solid rgba(0, 0, 0, 0.125);
+    width: 95%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    -webkit-box-shadow: 0px 0px 43px -2px rgba(0, 0, 0, 0.47);
+    -moz-box-shadow: 0px 0px 43px -2px rgba(0, 0, 0, 0.47);
+    box-shadow: 0px 0px 43px -2px rgba(0, 0, 0, 0.47);
+  }
+  
+  @media (max-width: 576px) {
+    #app {
+      margin-top: 10%;
+      margin-bottom: 10%;
+    }
+
+    .main{
+      width: 100%;
+    }
+  }
+  
+  .card .card-header {
+    background-image: linear-gradient(
+      90deg,
+      rgb(130, 137, 217) 0%,
+      rgba(125, 143, 238, 1) 100%
+    );
+    color: white;
+  }
+  
+  div .form-control {
+    width: 60%;
+  }
+  
+  @media (max-width: 764px) {
+    div .form-control {
+      width: 100%;
+    }
+  }
+  
+  .input-botones {
+    margin-top: 1%;
+    margin-bottom: -0.8%;
+    width: 100%;
+  }
+  
+  @media (max-width: 576px) {
+    .input-botones {
+      margin-top: 4%;
+    }
+  }
+  
+  #app {
+    max-height: 110vh;
+    overflow-y: auto;
+  }
+  
+  .lista-tareas {
+    margin-bottom: 0;
+  }
+  
+  .card-all {
+    margin-bottom: 1%;
+  }
+  
+  div #input-titulo {
+    width: 20%;
+    margin-right: 1%;
+  }
+  
+  @media (max-width: 576px) {
+    div #input-titulo {
+      width: 30%;
+      margin-right: 1%;
+    }
+  }
+  
+  .div-buscar {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 1%;
+  }
+  
+  @media (max-width: 576px) {
+    #input-buscar {
+      width: 50%;
+      margin-left: 2%;
+    }
+  
+    .btn-buscar {
+      height: 1.9em;
+    }
+  }
+  
+  #input-buscar {
+    margin-bottom: 0.75%;
+  }
+  
+  .app-header {
+    margin-left: 1%;
+  }
+  
+  div .card-body{
+    margin-left: 1%;
+  }

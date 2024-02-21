@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/botones.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <title>To-do</title>
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="card " id="app">
+            <div class="card-header ">
+                <div class="app-header">
+                    <h1 class="h3 d-none d-md-block">To-Do App</h1>
+                    <h1 class="h1 d-md-none">To-Do App</h1>
+                    <div class="input-app ">
+                        <!-- <input type="search" name="" id="input-titulo" class="form-control col-md-1 col-4"
+                            placeholder="Titulo"> -->
+                        <input type="search" name="" id="input-tarea" class="form-control"
+                            placeholder="Describe la tarea..." aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">Puedes crear varias a las vez separandolas por coma.</div>
+                    </div>
+                </div>
+
+                <div class="input-botones text-md-start">
+                    <button type="button" class="btn-agregar h5">Agregar</button>
+                    <button type="button" class="btn btn-outline-light btn-abrir" data-bs-toggle="collapse" data-bs-target="#collapse-buscar">Buscar tarea</button>
+                    <div class="div-buscar collapse" id="collapse-buscar">
+                        <input type="search" name="" id="input-buscar" class="form-control"
+                            placeholder="Buscar tarea...">
+                        <!-- <button type="button" class="btn-buscar btn btn-outline-light h5"><img src="./assets/img/lupa.png" alt=""></button> -->
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card-body">
+                <div class="card-all">
+                    <button type="button" class="btn btn-outline-primary text-dark" id="select-all">Seleccionar
+                        todos</button>
+                    <button type="button" class="btn-eliminar h5 btn btn-outline-danger">Eliminar</button>
+
+                </div>
+                <div class="card">
+                    <ul class="list-group list-group-flush lista-tareas">
+                        <!-- <li class="list-group-item"><input type="checkbox" name="" id=""> tarea <button type="button" class="editar btn btn-close-white">Editar</button></li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<footer>
+    <script src="./assets/scripts/JQuery.js"></script>
+    <script src="./assets/scripts/buscar.js"></script>
+    <script src="./assets/scripts/index.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+</footer>
+
+</html>

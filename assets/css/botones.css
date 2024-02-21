@@ -1,0 +1,70 @@
+.btn-agregar {
+  border-radius: 6px;
+  background-color: rgb(62, 224, 94);
+  margin-left: 1%;
+}
+
+.btn-eliminar {
+  margin-left: 1%;
+  border-radius: 6px;
+  /* background-color: rgb(248, 74, 74); */
+  width: 10%;
+  
+}
+
+.btn-buscar {
+  margin-left: 1%;
+  margin-top:1%;
+  width: auto;
+  height: auto;
+  /* padding: 8px 16px; */
+  background-color: rgb(83, 57, 199);
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0px;
+  outline: none;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+li .editar {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: blue;
+}
+
+#select-all {
+  width: 10em;
+  margin-bottom: 0.8%;
+}
+
+.btn-abrir {
+  width: 9em;
+  margin-bottom: 0.8%;
+  margin-left: 1%;
+}
+
+@media (max-width: 576px) {
+  .btn-abrir {
+    width: 9em;
+    margin-bottom: 1.7%;
+  }
+
+  .btn-eliminar {
+    margin-left: 1%;
+    border-radius: 6px;
+    background-color: rgb(248, 74, 74);
+    width: 25%;
+  }
+}
